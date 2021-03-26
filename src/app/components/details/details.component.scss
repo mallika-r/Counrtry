@@ -1,0 +1,23 @@
+$primary: var(--primary-color);
+$secondary: var(--secondary-color);
+
+
+.layout{
+    background-color:$primary;
+    min-width: 100%;
+    color:$secondary;
+    font-family: 'Nunito Sans'
+}
+
+
+.Btn{
+    border:1px solid $secondary;
+    background-color: transparent;
+    border-radius: 10px;
+   margin:10px;
+    
+}
+
+.noPadding{
+    padding: 0px;
+}

@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Germany",
+        "id": "1",
+        "population": "81770900",
+        "region": "Europe",
+        "capital": "Berlin",
+        "img": "assets/img/Germany.JPG"
+        
+    },
+    {
+        "name": "United States of America",
+        "id": "2",
+        "population": "323947000",
+        "region": "America",
+        "capital": "Washington D.C",
+        "img": "assets/img/USA.JPG"
+    },
+    {
+        "name": "Brazil",
+        "id": "3",
+        "population": "206135893",
+        "region": "America",
+        "capital": "Brasilia",
+        "img": "assets/img/Brazil.JPG"
+    },
+    {
+        "name": "Iceland",
+        "id": "4",
+        "population": "334300",
+        "region": "Europe",
+        "capital": "Reyjavik",
+        "img": "assets/img/Iceland.JPG"
+    },
+    {
+        "name": "Afganisthan",
+        "id": "5",
+        "population": "27557145",
+        "region": "Asia",
+        "capital": "Kabul",
+        "img": "assets/img/Afganisthan.png"
+    },
+    {
+        "name": "Aland Islands",
+        "id": "6",
+        "population": "28857",
+        "region": "Europe",
+        "capital": "Mariehamn",
+        "img": "assets/img/AlandIlands.JPG"
+    },
+    {
+        "name": "Albania",
+        "id": "7",
+        "population": "28886026",
+        "region": "Europe",
+        "capital": "Tirana",
+        "img": "assets/img/Albania.JPG"
+    },
+    {
+        "name": "Algeria",
+        "id": "8",
+        "population": "40400000",
+        "region": "Africa",
+        "capital": "Algiers",
+        "img": "assets/img/Algeria.JPG"
+    }
+]

@@ -1,0 +1,33 @@
+$primary: var(--primary-color);
+$secondary: var(--secondary-color);
+
+
+.layout{
+    background-color:$primary;
+    min-width: 100%;
+    color:$secondary;
+    font-family: 'Nunito Sans'
+}
+
+.html{
+    background-color:$primary;  
+    color:$secondary;
+}
+
+
+.tglBtn{
+    border:1px solid $secondary;
+    background-color: transparent;
+    border-radius: 10px;
+    float:right;
+}
+
+.toolbar {
+    height: 60px;     
+    display: flex;
+    align-items: center;   
+    font-weight: 600;
+  }
+
+  
+  html, body, .site-content { height: 100%; }

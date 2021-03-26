@@ -1,0 +1,43 @@
+$primary: var(--primary-color);
+$secondary: var(--secondary-color);
+
+
+.layout{
+    background-color:$primary;
+    min-width: 100%;
+    color:$secondary;
+    font-family: 'Nunito Sans'
+}
+
+.srch{
+    color:$primary;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    background-color:$secondary;
+    opacity: 0.5;
+}
+
+.toolbar {
+    height: 60px;     
+    display: flex;
+    align-items: center;    
+  }
+
+  .card-title{
+   // font-size:13px;
+    font-weight: 800;
+  }
+
+  .card-text{
+     // font-size:12px;
+      font-weight: 600;
+  }
+
+  .crdLyt{
+    width: auto;height:auto;
+    border:1px solid $secondary;margin:30px;padding: 0px;
+border-radius: 5px;  
+}
+
+  

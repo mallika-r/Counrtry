@@ -1,0 +1,34 @@
+<div class="container layout">
+  <div class="row">
+    <div class="col-sm-7">
+      <input class="srch" type="text" (keyup)="searchCountry($event)"
+       placeholder="Search for the country...">
+    </div>
+
+    <div class="col-sm-5">
+      <select (change)="change($event)" class="form-control srch">
+        <option>Country</option>
+        <option>Region</option>
+    </select>
+    </div>
+  </div>
+
+  <div class="row">
+    <div *ngFor="let country of srchList" class="col-sm-3 crdLyt">
+      <div class="card">
+        <a routerLink="/country/details/{{country.id}}"><img class="card-img-top" src="{{country.img}}" style="height:150px;display:inline-block;
+      min-width:100%;max-width:100%;width: auto;" alt="Card image cap"></a>
+        <div class="card-body">
+          <h5 class="card-title" >{{country.name}}</h5>
+          
+         <p  class="card-text" ><b>Population:</b> {{country.population}}</p>
+        <p  class="card-text"><b>Region: </b>{{country.region}}</p>
+           
+          <p  class="card-text"><b>Capital:</b> {{country.capital}}</p>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>

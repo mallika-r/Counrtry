@@ -1,0 +1,57 @@
+<div class="container layout">
+    <div class="row">
+        
+        <br/>
+        <br/>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <button class="Btn" (click)="onBack()">Back</button>
+        </div>
+    </div>
+
+    <div class="row">
+        <br/>
+        <br/>
+    </div>
+    
+    <div class="row">
+        <div class="col-sm-6">
+            <img style="height: 300px;width: auto;" src="assets/img/{{country.name}}.JPG" 
+            alt=""
+            />
+        </div>
+        <div class="col-sm-6 noPadding">            
+                <div class="container noPadding" >
+                    <div class="row noPadding">
+                        <div class="col-sm-3">
+                            <div class="container">
+                                <div class="row"><b>Native Name:</b> {{country.name}} </div>
+                                <div class="row"><b>Population: </b>{{country.population}}</div>
+                                <div class="row"><b>Region:</b> {{country.region}}</div>
+                                <div class="row"><b>Sub Region:</b> {{country.region}}</div>
+                                <div class="row"><b>Capital: </b>{{country.capital}}</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="row"><b>Top Level Domain:</b>  be </div>
+                                <div class="row"><b>Currencies:</b>  Euro</div>
+                                <div class="row"><b>Languages:</b>   English,French,Dutch</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <br/>
+                        <br/>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-2"><b>Border Countries</b></div>
+                        <div class="col-sm-1">France</div>
+                        <div class="col-sm-1">Germany</div>
+                        <div class="col-sm-2">Netherlands</div>
+                    </div>              
+                </div>
+            </div> 
+            
+    </div>
+</div>

@@ -1,0 +1,22 @@
+<div class="toolbar layout" role="banner"> 
+    <div class="container" style="padding: 0px;margin: 20px;">
+        <div class="row">
+            <div class="col-sm-6">
+                Where in the world?
+            </div>
+            <div class="col-sm-6" style="text-align: end;">
+                <i class="bi bi-moon"></i>
+                {{darkLightTheme}}
+                <button (click)="changeTheme()" class="tglBtn"
+                 title="{{isDark ? 'Light' : 'Dark'}}">Toggle {{isDark ? 'Dark' : 'Light'}} Mode</button>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+ 
+    
+ 
+<router-outlet></router-outlet>
